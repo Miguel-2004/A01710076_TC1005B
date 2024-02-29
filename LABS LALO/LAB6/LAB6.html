@@ -1,0 +1,37 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validador de Contraseñas</title>
+<link rel="stylesheet" href="LAB6.css">
+</head>
+<body>
+<h2>Validador de Contraseñas</h2>
+<form>
+    <input type="password" id="password" placeholder="Contraseña" onkeyup="validarPassword()">
+    <br>
+    <input type="password" id="confirmPassword" placeholder="Confirmar Contraseña" onkeyup="validarPassword()">
+</form>
+<div id="message"></div>
+<div id="help">Ingresa una contraseña segura con al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial.</div>
+<button id="continuar" onclick="resetearFormulario()">Continuar</button>
+
+<script src="LAB6.js"></script>
+</body>
+</html>
+
+
+
+// PREGUNTAS //
+
+//¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?//
+
+// Se considera buena práctica debido a que mejora la experiencia dle usuario al proporcionar una retroalimentación inmediata, ayuda a reducir la carga del servidor y el ancho de la banda y ayuda a la prevención de ataques.//
+
+//¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?//
+
+//Se pueden saltar deshabilitando la ejecución del codigo en el navegador o enviando una solicitud al servidor sin pasar el formulario. Además que puede ser alterado por medio del código fuente.//
+
+//Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?//
+
+//Aunque pueden ser evitadas, estas proporcionan una mejor experiencia al usuario, reducen la carga del servidor y mejoran la seguridad. Aunque no son infaliblesconstruyen una mejor protección.
