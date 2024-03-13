@@ -41,14 +41,12 @@ function esPrimo(numero){
   }
   return true;
 }
-
 const numero =17;
 if (esPrimo(numero)){
   console.log(numero + 'es primo. ');
 } else {
   console.log(numero +'no es primo. ');
 }
-
 
 //http es un módulo de node con todas las funciones de un servidor web
 const http = require('http');
