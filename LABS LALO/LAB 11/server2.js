@@ -246,3 +246,8 @@ const server = http.createServer((req, res) => {
 server.listen(3001, () => {
     console.log('Servidor en ejecución en el puerto 3001');
 });
+
+
+// Describe el archivo package.json
+
+//Este archivo contiene metadatos esenciales para proyectos que son ejecutados con Node.js incluyendo en la mayorìa de los casos, nombre, versiòn, descripciòn, dependencias, scripts, autor y licencia. Estos datos son cruciales para la gestiòn de paquetes, la configuraciòn del proyecto y la distribuciòn del software en el ecosistema de Node.
