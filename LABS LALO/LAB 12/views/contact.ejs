@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Incluye el partial head -->
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+    <!-- Incluye el partial navbar -->
+    <%- include('partials/navbar.ejs') %>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Contáctame</h1>
+            <form action="/contact" method="POST">
+                <div class="field">
+                    <label class="label">Nombre</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Tu nombre" name="name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Correo electrónico</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Tu correo electrónico" name="email">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Mensaje</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Tu mensaje" name="message"></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+            <a href="/" class="button">Volver a la página principal</a>
+        </div>
+    </section>
+
+    <!-- Incluye el partial footer -->
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
