@@ -1,0 +1,62 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para el contenido principal */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
