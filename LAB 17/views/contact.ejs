@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">¡Contáctame!</h1>
+            <p class="subtitle">Si deseas ponerte en contacto conmigo, completa el siguiente formulario:</p>
+            <form action="/contact" method="POST">
+                <div class="field">
+                    <label class="label">Nombre</label>
+                    <div class="control">
+                        <input class="input" type="text" name="name" placeholder="Ingresa tu nombre" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Correo Electrónico</label>
+                    <div class="control">
+                        <input class="input" type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Mensaje</label>
+                    <div class="control">
+                        <textarea class="textarea" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+            <a href="/" class="button">Volver a la página principal</a>
+        </div>
+    </section>
+</body>
+</html>
